@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Macondo&family=Poppins:wght@400;600;700&family=Smooch&display=swap');
 :root {
 	/* --mainColor: #1ca196; */
-	--mainColor: #9f5fc4;
+	--mainColor: #6b9471;
+	/* --mainColor: #9f5fc4; */
 	/* --mainColor: #dbac86; maron */
 	/* --mainColor: #db8686; red */
 	/* --mainColor: #db86ba; /*rose */
@@ -256,7 +257,9 @@ body {
 	width: 90%;
 	margin: auto;
 	margin-top: 10%;
-	background-image: url(../img/header/me.jpg);
+	background-image: url(../img/photos/about/5.jpg);
+	/* background-image: url(../img/photos/header/me/4.jpg); */
+	background-position: top center;
 	background-size: cover;
 	height: 530px;
 	z-index: 10;
@@ -350,9 +353,9 @@ body {
 	box-shadow: -10px 10px 69px -27px rgb(0 0 0 / 33%);
 }
 .about .about-content {
-	padding: 46px 0;
+	padding: 30px 0;
 	padding-left: 40px;
-	padding-top: 65px;
+	padding-top: 25px;
 }
 .about .about-content .hobbies p:first-child {
 	text-transform: uppercase;
