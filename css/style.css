@@ -117,6 +117,9 @@ body {
 .nav-bar .nav-list li a {
 	padding: 15px 0;
 }
+.nav-bar .padding-right-0 {
+	padding-right: 0 !important;
+}
 .nav-bar .menu-btn {
 	text-align: end;
 }

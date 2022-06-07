@@ -9,16 +9,7 @@
 	}
 }
 @media (max-width: 375px) {
-	/* start mobile nav */
-	.mobile-nav .mobile-nav-list li {
-    margin-bottom: 20px;
-	}
-	/* end mobile nav */
-	/* start Header */
-	.header .home p .name {
-    font-size: 25px !important;
-	}
-	/* end Header */
+
 	/* start about  */
 	.about .about-info ul li {
     font-size: 13px !important;
@@ -30,18 +21,16 @@
 }
 @media (max-width: 399px) {
 	.about {
-    padding-top: 0;
+    padding-top: 0px;
+		margin-top: 0px;
 	}
 	.statistics {
 		display: none;
 	}
 }
 @media (max-width: 415px) {
-	.header .home p .name {
-    font-size: 27px;
-	}
-	.header .home h1 {
-    font-size: 35px !important;
+	.header .home p {
+    margin-bottom: 30px;
 	}
 }
 @media (min-width: 400px) {
